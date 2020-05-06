@@ -1,3 +1,24 @@
+# Solution Architecture Discovery
+
+This repository is a checklist of questions to ask yourself and your customer when designing a new cloud solution architecture or migrating an existing archtiecture to the cloud.
+
+## Intent
+
+As a Cloud Solution Architect, we need to be able to quickly vet and understand a wide range of solutions before starting the discussing implementation.  These pages are designed to help cover all bases during the investigation stage of a project.
+
+## How to use
+
+Each top-level Domain is broken up into a separate page which covers that domain and its relevant subdomains.
+
+To start, it's recommended to investigate each of the domains at a high level and then dig deeper as the conversation warrants.
+
+* [Architecture](docs/architecture.md) - Software Architecture of the solution
+* [Business Conext](docs/business-context.md) - Customer type, Industry, Licensing, etc.
+* [Partnership](docs/partnership.md) - Goals, Marketplace
+* [Project](docs/project.md) - Design/Operations Team, Success Criteria
+* [Software Development Life Cycle (SDLC)](docs/sdlc.md) - DevOps, Environments
+* [Technical Requirements](docs/technical-requirements.md) - Resiliency, HA/BC/DR, Observability, Scaling
+
 
 # Contributing
 
