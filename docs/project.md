@@ -1,4 +1,7 @@
 # Project
 
-* Team
-* Definition of Done
+* People
+* Process
+    * Definition of Done
+* Tools
+
