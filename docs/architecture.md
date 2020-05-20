@@ -49,13 +49,14 @@
         * Key Concepts
             * Container, Kubernetes
         * Questions:
-            * How do you plan to build your runtime image?
+            * How do you want to build your runtime image?
+            * How do you want to deploy new versions of your application?
     * App Platform/Development Framework
         * Key Concepts
-            * 12 Factor App
+            * C#, Python, NodeJS, 12 Factor App
         * Questions:
-            * What language/framework do you use?
-            * Do you follow 12 Factor Apps model?
+            * What language/framework is the system written in?
+            * Does the system follow the 12 Factor Apps model?
 * Technical Roadmap
     * Is this a greenfield or brownfield app?
     * What optimizations do you foresee?
