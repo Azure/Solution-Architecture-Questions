@@ -1,4 +1,4 @@
-# Architecture
+# Software Architecture
 
 * Infrastructure
     * Networking
@@ -34,9 +34,11 @@
             * How are the IoT devices maintained and upgraded?
             * What central repository are the IoT devices reporting to?
             * Do you use Digital Twins?
-* External Integrations
-    * Questions:
-        * Does the system have any external integrations?  (e.g. SMTP, Database)
+* Third-party Integrations
+    * Questions
+        * What 3rd party systems does your system integreate with? (e.g. SMTP, Database)
+        * How do you plan to manage these 3rd party systems?
+        * If applicable, do you plan to use Azure 1st party services?
 * Platform
     * OS
         * Key Concepts
