@@ -2,43 +2,72 @@
 
 * Resiliency
     * HA
-        * What is each service's SLA?  RPO?  RTO?
+        * What is the solution's SLA?
+        * Are there any service dependencies that will impact this solution's availability?
+        * What HA features are available in the current applications?  (ex. SQL HA)
     * BC/DR
-        * Which regions do you need to deploy to?  Are their Paired Regions?
+        * What is the RTO/RPO? Is the solution business-critical?
+        * Which regions do you need to deploy to?  Are their Paired Regions?
+        * Will the DR solution need to meet the same production requirements (ex. same/reduced traffic, lower performance)
+        * How do users access the service now, via IP, URL etc..
+        * Do you have an existing DR or Incident Recovery Plan? 
+        * How do you perform DR testing?
 * Security
     * What are your biggest threat vectors?
-    * Do you need Firewall?  Egress/Ingress restrictions?
+    * Do you need Firewall?  Egress/Ingress restrictions?
+    * Are you subject to any regulatory/organizational mandates or policies?
 * Identity
-    * B2C
-    * B2B
+    * Do you need to support 3rd party authentication from commercial providers? (ex. B2C)
+    * Do you need to support authentication between partners (ex. B2B)
+    * What are you currently using to authenticate? 
 * Data
+    * Do you have retention policy? How is data backed up? 
+    * Are their policies impacting how the data is shared? 
+    * How much data does the solution generate? How much data do you intake daily? 
+    * Is your data segregated by customer? How do they access the data? 
+    * What kind of data is being stored? What is it used for? 
+
 * AI
+    * What level of AI is of interest? (Bots, Cognitive Service API, Data Scientist platforms, Machine Learning models)
+    * What skill sets do you have on staff? (Data scientists, Developers)
+    * What data sets do you have to leverage? (public/proprietary)
+    * What feature/functionality are you supporting with the AI? 
 * Observability
+    * Questions: What existing solutions are you using?  Provided internally, by another provider? 
     * Metrics
-        * What resolution/metrics do you need to understand the performance of your app?
+        * What resolution/metrics do you need to understand the performance of your app/understand if you are meeting SLA?
+        * What is needed at the network level, platform level, application level, user experience level? 
     * Logs
-        * How are logs collected?  aggregated?
+        * How are logs collected?  aggregated? 
     * Alerts
         * How do you know if the service experiences problems?
-* Tenancy
-    * Key Concepts:
-        * Application based Multi-tenancy
-        * Infrastructure based Multi-tenancy
-        * Hybrid
+        * Who will be receiving the alerts?
+    * Tenancy
+        * Key Concepts:
+            * Application based Multi-tenancy
+            * Infrastructure based Multi-tenancy
+            * Hybrid
     * Questions:
         * How do you onboard a new tenant?
-        * Does this support a multi-tenancy control plane? Ingress?
+        * Does this support a multi-tenancy control plane? Ingress?
+        * What is the tenancy model of the solution? Is there a shared front end but seperate back-end/database per customer? 
+        * How is the tenancy implemented in the database? Seperate tables, schema, databases on the same server, independent servers?
+        * What is the tenancy model of supporting services like storage, CDN, VMs?
 * Scaling
     * Key Concepts:
         * RPS
         * Traffic Patterns
         * App vs Infra Scaling
     * Questions:
-        * What's your traffic volume at normal load?  Peak?
-        * What is your Y/Y, Q/Q growth?
+        * What's your traffic volume at normal load?  Peak?
+        * Do you have scalability/performance requirements? Ex. Number of users, transactions per second, Number of SQL statements running simultaneously
+        * What is your Y/Y, Q/Q growth? Are there upcoming events that you anticipate growth/traffic spikes for? 
+        * Is your application written with microservices or as a monolith? Can the components be deployed as seperate services? 
+        * Are there closely coupled systems that must also scale or will be impacted when the solution scales up?
 * Governance
-    * Enforcement Policy
-    * Audit Policy
+    * What is currently in place for governance? Who controls environment access? 
+    * Who dictates the enforcement policy and how is it enacted?
+    * Who dictates the audit policy and how is it enacted?
 * Compliance
     * Key Concepts
         * SOC
@@ -46,5 +75,5 @@
         * ISO
         * PCI
     * Questions:
-        * Do you have any compliance standards
-        * What is your data retention policy?
+        * Do you have any compliance standards from the organization or industry? 
+        * How do you currently track compliance? Who is responsible for system compliance? 
