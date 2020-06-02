@@ -60,6 +60,8 @@
         * App vs Infra Scaling
     * Questions:
         * What's your traffic volume at normal load?  Peak?
+        * What is the bottleneck that causes you to scale? (e.g. Memory, CPU, bandwidth)
+        * Are there any leading indicators to help you scale?
         * Do you have scalability/performance requirements? Ex. Number of users, transactions per second, Number of SQL statements running simultaneously
         * What is your Y/Y, Q/Q growth? Are there upcoming events that you anticipate growth/traffic spikes for? 
         * Is your application written with microservices or as a monolith? Can the components be deployed as seperate services? 
