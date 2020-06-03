@@ -1,4 +1,4 @@
-# Solution Architecture Discovery
+# Solution Architecture Questions
 
 This repository is a checklist of questions to ask yourself and your customer when designing a new cloud solution architecture or migrating an existing archtiecture to the cloud.
 
