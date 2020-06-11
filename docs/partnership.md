@@ -43,24 +43,6 @@
             * Does the solution authenticate users with SSO with OAuth2, OIDC or SAML?
             * Does the solution authenticate users with Azure AD?
             * Is the solution tailored for specific industries?
-* Team
-    * Project
-        * Key Concepts:
-            * Roles, Individuals
-        * Questions:
-            * Who is the technical leader for the project?
-            * Who is the product manager/owner for the project?
-            * Who is the sponsor for the project?
-    * Collaboration
-        * Key Concepts:
-            * How will your team work with Microsoft
-        * Questions:
-            * Who is the partnership/alliance manager for your relationship with Microsoft?
-            * What are the key dates/timeline for the project?
-            * When is the project launching?
-            * Who are the key decision makers?
-            * Is there a [RACI](https://www.projectmanager.com/blog/how-to-make-a-raci-chart-for-a-project-with-example) chart for the project?
-            * Do you want to present the solution at your conference, a Microsoft event or an industry show?
 * Partner Type
     * Identity
         * Key Concepts:
