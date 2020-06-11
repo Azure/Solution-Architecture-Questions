@@ -28,6 +28,9 @@
    * Questions
       * What would you like to get out of our engagement?
       * How would you know that our engagement has been a success?
+      * What is the timeline for the project?
+      * Will you move certain parts of the solution at a time in a phased approach?
+      * What is influencing/impacting the timeline?
 * Tools
    * What are your primary tools of communication? (e.g. Teams, Email, Slack)
    * How would you like for us to coordinate scheduling meetings? (e.g. FindTime, propose a time)
