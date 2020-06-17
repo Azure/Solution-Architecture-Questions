@@ -5,27 +5,27 @@
         * Key Concepts:
             * ExpressRoute, VPN, Firewall
         * Questions:
-            * Is the system allowed to reach to external services?
-            * Will external services (or users) reach to the system?
-            * Any ingress/egress rules?
-            * Any on-premesis requirements?
+            * Does the system reach to external services?
+            * How do users interact with the system?
+            * Is access to the system public or locked down?
+                * If locked down, how so?
+            * Any on-prem requirements?
     * Compute
         * Key Concepts:
             * VM, VMSS, Azure Functions, Batch
         * Questions:
             * Will the system run in containers?
             * Is the system CPU or memory intensive? (or both?)
-            * How are you bundling the system?
-            * How will your application scale?
+            * How do you bundle the system?
             * How do you know when to scale?
-            * What parts of the system are syncronous?  
-            * What parts of the system are asyncronous?
+            * What needs to happen for the system to scale? (e.g. more VM's)
     * Storage
         * Key Concepts:
             * Blob, NFS, SMB
         * Questions:
             * Does the system need to persist data outside a database?
             * What format is the data in?  (e.g. local files, blob)
+            * What size is the data?
     * IoT
         * Key Concepts:
             * IoT Hub, IoT Central
@@ -38,19 +38,21 @@
     * Questions
         * What 3rd party systems does your system integreate with? (e.g. SMTP, Database)
         * How do you plan to manage these 3rd party systems?
-        * If applicable, do you plan to use Azure 1st party services?
+        * What Microsoft/Azure SaaS offerings do you plan to use? (e.g. Cognitive Services, etc.) 
 * Platform
     * OS
         * Key Concepts
             * Linux Distros, Windows Server
         * Questions:
-            * How do want to manage updates when there's a critical security update?
+            * What OS can the system run on?
+            * How do plan to manage updates when there's a critical security update?
     * Runtime
         * Key Concepts
             * Container, Kubernetes
         * Questions:
-            * How do you want to build your runtime image?
-            * How do you want to deploy new versions of your application?
+            * What is your build system?
+            * How often do you build new executable artifacts?
+            * How often do you deploy new executable artifacts?
     * App Platform/Development Framework
         * Key Concepts
             * C#, Python, NodeJS, 12 Factor App
@@ -60,4 +62,4 @@
 * Technical Roadmap
     * Is this a greenfield or brownfield app?
     * What optimizations do you foresee?
-    * What is your highest technical priorities?
+    * What are your highest technical priorities?
