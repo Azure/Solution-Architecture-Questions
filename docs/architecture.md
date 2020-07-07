@@ -19,6 +19,9 @@
             * How do you bundle the system?
             * How do you know when to scale?
             * What needs to happen for the system to scale? (e.g. more VM's)
+        * Technology:
+             * [Kubernetes](technology/compute/kubernetes.md)
+
     * Storage
         * Key Concepts:
             * Blob, NFS, SMB
@@ -27,7 +30,7 @@
             * What format is the data in?  (e.g. local files, blob)
             * What size is the data?
         * Technology: 
-            * [Data Lake](docs/technology/storage/azure-data-lake.md)
+            * [Data Lake](technology/storage/azure-data-lake.md)
             * Blob
             * NFS
     * IoT
