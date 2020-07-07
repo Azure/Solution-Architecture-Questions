@@ -27,7 +27,7 @@
             * What format is the data in?  (e.g. local files, blob)
             * What size is the data?
         * Technology: 
-            * Data Lake
+            * [Data Lake](docs/technology/storage/azure-data-lake.md)
             * Blob
             * NFS
     * IoT
