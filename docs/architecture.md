@@ -22,10 +22,14 @@
     * Storage
         * Key Concepts:
             * Blob, NFS, SMB
-        * Questions:
+        * Discovery Questions:
             * Does the system need to persist data outside a database?
             * What format is the data in?  (e.g. local files, blob)
             * What size is the data?
+        * Technology: 
+            * Data Lake
+            * Blob
+            * NFS
     * IoT
         * Key Concepts:
             * IoT Hub, IoT Central
