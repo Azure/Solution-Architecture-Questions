@@ -11,6 +11,12 @@
 * What base container image do you use?
 * How do you deploy your containers?
 * What languages are used? (e.g. C#, PHP, Python)
+* Are you using readiness and health probes?
+* Do you have resource quotas set?
+* Are you usising "latest" image tags? (HINT: You shouldn't be)
+* Do you restrict the registries where iamges come from?
+* What version of Kubernetes are you using?
+* 
 
 ## Resources
 
@@ -20,3 +26,12 @@
 * [Production Ready Microservices by Susan Fowler](http://shop.oreilly.com/product/0636920053675.do)
 * [Designing Distributed Systems](http://shop.oreilly.com/product/0636920072768.do)
 * [GitOps](https://www.weave.works/blog/gitops-operations-by-pull-request)
+* [Azure AKS Best Practices](https://www.cncf.io/webinars/optimize-your-kubernetes-clusters-on-azure-with-built-in-best-practices/)
+
+## Tools
+* [Polaris](https://www.fairwinds.com/polaris)
+* [kube-scan](https://github.com/octarinesec/kube-scan)
+* [Azure Advisor](https://azure.microsoft.com/en-us/updates/azure-advisor-integration-with-aks-now-generally-available/)
+* [Open Policy Agent](https://www.openpolicyagent.org/docs/latest/kubernetes-introduction/)
+* [Weave Scope](https://www.weave.works/oss/scope/)
+* [Periscope](https://github.com/Azure/aks-periscope)
