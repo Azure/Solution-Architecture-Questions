@@ -13,7 +13,7 @@ Each top-level Domain is broken up into a separate page which covers that domain
 To start, it's recommended to investigate each of the domains at a high level and then dig deeper as the conversation warrants.
 
 * [Architecture](docs/architecture.md) - Software Architecture of the solution
-* [Business Conext](docs/business-context.md) - Customer type, Industry, Licensing, etc.
+* [Business Context](docs/business-context.md) - Customer type, Industry, Licensing, etc.
 * [Partnership](docs/partnership.md) - Goals, Marketplace
 * [Project](docs/project.md) - Design/Operations Team, Success Criteria
 * [Software Development Life Cycle (SDLC)](docs/sdlc.md) - DevOps, Environments
