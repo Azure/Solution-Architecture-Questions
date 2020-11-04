@@ -70,6 +70,10 @@
     * What is currently in place for governance? Who controls environment access? 
     * Who dictates the enforcement policy and how is it enacted?
     * Who dictates the audit policy and how is it enacted?
+* DevOps
+   * What environments do you have? (e.g. Dev/Test/Prod)
+   * How are you creating new software artifacts?
+   * How do you deploy the new software artifacts across your environments?
 * Compliance
     * Key Concepts
         * SOC
