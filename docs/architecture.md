@@ -9,16 +9,15 @@
             * How do users interact with the system?
             * Is access to the system public or locked down?
                 * If locked down, how so?
-            * Any on-prem requirements?
+            * What are the on-prem requirements?
     * Compute
         * Key Concepts:
             * VM, VMSS, Azure Functions, Batch
         * Questions:
             * Will the system run in containers?
             * Is the system CPU or memory intensive? (or both?)
-            * How do you bundle the system?
-            * How do you know when to scale?
-            * What needs to happen for the system to scale? (e.g. more VM's)
+            * What are the solution's scaling requirements?
+            * What should trigger a scaling event?
         * Technology:
              * [Kubernetes](technology/compute/kubernetes.md)
 
