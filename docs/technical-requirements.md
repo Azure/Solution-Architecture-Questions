@@ -17,16 +17,18 @@
     * Do you need Firewall?  Egress/Ingress restrictions?
     * Are you subject to any regulatory/organizational mandates or policies?
 * Identity
-    * Do you need to support 3rd party authentication from commercial providers? (ex. B2C)
-    * Do you need to support authentication between partners (ex. B2B)
-    * What are you currently using to authenticate? 
+    * Do you need to support identities from identity providers external to Azure Active Directory (eg., Google, Facebook, Active Directory Federation Services)? 
+        * Do you need to share your apps and resources with external users? (B2B collaboration)
+        * Do you need to build user journets with a white-label identity management solution for consumer- and customer-facing apps (B2C collaboration)
+        * Refer to the 'Compare External Identities solutions table for more decisions points (https://docs.microsoft.com/en-us/azure/active-directory/external-identities/compare-with-b2c)
+    * What are you currently using to authenticate your users?
+    * What are you currently using to authorize user/group/service access to your services?
 * Data
     * Do you have retention policy? How is data backed up? 
     * Are their policies impacting how the data is shared? 
     * How much data does the solution generate? How much data do you intake daily? 
     * Is your data segregated by customer? How do they access the data? 
     * What kind of data is being stored? What is it used for? 
-
 * AI
     * What level of AI is of interest? (Bots, Cognitive Service API, Data Scientist platforms, Machine Learning models)
     * What skill sets do you have on staff? (Data scientists, Developers)
