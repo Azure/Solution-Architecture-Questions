@@ -1,19 +1,16 @@
 # Kubernetes
 
-* Are the applications already in containers?
+* Does the application already run in a containerized environment?
 * Is this a new K8S cluster or a migration from an existing K8S cluster?
 * Do you plan to use AKS or AKS-engine?
-* Do you plan to use Ingress?
+* What are the ingress requirements?
+* What are the egress requirements?
 * Does the application persist state?  If so, how?
-* What applications are exposed externally?
-* What applications are exposed internally?
 * Do you plan to implement manual or auto-scaling?
 * Are you implementing DevOps?  If so, how?
 * What languages are used? (e.g. C#, PHP, Python)
 * Are you using readiness and health probes?
 * Do you have resource quotas set?
-* Are you usising "latest" image tags? (HINT: You shouldn't be)
-* Do you restrict the registries where iamges come from?
 * What version of Kubernetes are you using?
 
 ## Resources
