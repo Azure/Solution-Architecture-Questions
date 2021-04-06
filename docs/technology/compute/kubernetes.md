@@ -3,15 +3,15 @@
 * Does the application already run in a containerized environment?
 * Is this a new K8S cluster or a migration from an existing K8S cluster?
 * Do you plan to use AKS or AKS-engine?
-* What are the ingress requirements?
-* What are the egress requirements?
-* Does the application persist state?  If so, how?
-* Do you plan to implement manual or auto-scaling?
-* Are you implementing DevOps?  If so, how?
+* What are the ingress network requirements?
+* What are the egress network requirements?
+* Does the application persist state inside the container?  If so, how?
+* What are the scaling requirements?
+* What are your build and deploy pipelines and how are they implemented?
 * What languages are used? (e.g. C#, PHP, Python)
-* Are you using readiness and health probes?
-* Do you have resource quotas set?
-* What version of Kubernetes are you using?
+* How do you know if the application is healthy?
+* What type of runtime resources does the container require?  (e.g. memory, CPU)
+* What version of Kubernetes are you planning to use?
 
 ## Resources
 
