@@ -75,11 +75,12 @@
    * How are you creating new software artifacts?
    * How do you deploy the new software artifacts across your environments?
 * Compliance
-    * Key Concepts
+   * Key Concepts
         * SOC
         * HIPAA
         * ISO
         * PCI
     * Questions:
-        * Do you have any compliance standards from the organization or industry? 
+        * Are you subject to security audits?
+        * Do you have any compliance requirements?
         * How do you currently track compliance? Who is responsible for system compliance? 
