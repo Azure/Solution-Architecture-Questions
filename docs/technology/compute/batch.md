@@ -23,3 +23,4 @@ Be familiar with the following [Azure Batch concepts](https://docs.microsoft.com
 * How long do you expect each task to run?
 * What are the input/output of each task?
 * What are the OS requirements? (e.g. Ubuntu 18.04, Windows Server 2019)
+* How is the application packaged?
