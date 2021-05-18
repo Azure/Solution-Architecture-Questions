@@ -26,4 +26,4 @@ Be familiar with the following [Azure Batch concepts](https://docs.microsoft.com
 * Do you need to create a custom image for the OS?
 * How is the application packaged?
 * What language do you plan to use for the Batch SDK? (e.g. .NET Core, Python)
-* Do you need autoscaling?  If so, what is the scaling trigger?
+* Do you need autoscaling?  If so, what is the scale up and down trigger?
