@@ -25,3 +25,4 @@ Be familiar with the following [Azure Batch concepts](https://docs.microsoft.com
 * What are the OS requirements? (e.g. Ubuntu 18.04, Windows Server 2019)
 * Do you need to create a custom image for the OS?
 * How is the application packaged?
+* What language do you plan to use for the Batch SDK? (e.g. .NET Core, Python)
