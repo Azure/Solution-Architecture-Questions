@@ -11,7 +11,7 @@
 * How much outage is acceptable whem migrating the database to Azure ?
 
 
-# Green field implementation
+# Green Field Implementation
 
 * Do you need guidance on what type of database to use ?
 * What is going to be the initial size of the database ?
