@@ -19,7 +19,7 @@
 * Identity
     * Do you need to support identities from identity providers external to Azure Active Directory (eg., Google, Facebook, Active Directory Federation Services)? 
         * Do you need to share your apps and resources with external users? (B2B collaboration)
-        * Do you need to build user journets with a white-label identity management solution for consumer- and customer-facing apps (B2C collaboration)
+        * Do you need to build user journeys with a white-label identity management solution for consumer- and customer-facing apps (B2C collaboration)
         * Refer to the 'Compare External Identities solutions table for more decisions points (https://docs.microsoft.com/en-us/azure/active-directory/external-identities/compare-with-b2c)
     * What are you currently using to authenticate your users?
     * What are you currently using to authorize user/group/service access to your services?
