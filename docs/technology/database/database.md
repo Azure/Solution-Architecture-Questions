@@ -94,7 +94,7 @@
 
 * What version of SQL is being used today ?
 * Do you use any feature in the database that needs access to underlying OS ?
-* Do you run cross database query or 
+* Do you run cross database query or filestream or extended stored procedure ?
 
 <br/>
 
