@@ -7,15 +7,17 @@
         * What HA features are available in the current applications?  (ex. SQL HA)
     * BC/DR
         * What is the RTO/RPO? Is the solution business-critical?
-        * Which regions do you need to deploy to?  Are their Paired Regions?
+        * Which regions do you need to deploy to?  Are they Paired Regions?
         * Will the DR solution need to meet the same production requirements (ex. same/reduced traffic, lower performance)
         * How do users access the service now, via IP, URL etc..
         * Do you have an existing DR or Incident Recovery Plan? 
         * How do you perform DR testing?
+
 * Security
     * What are your biggest threat vectors?
     * Do you need Firewall?  Egress/Ingress restrictions?
     * Are you subject to any regulatory/organizational mandates or policies?
+
 * Identity
     * Do you need to support identities from identity providers external to Azure Active Directory (eg., Google, Facebook, Active Directory Federation Services)? 
         * Do you need to share your apps and resources with external users? (B2B collaboration)
@@ -23,17 +25,20 @@
         * Refer to the 'Compare External Identities solutions table for more decisions points (https://docs.microsoft.com/en-us/azure/active-directory/external-identities/compare-with-b2c)
     * What are you currently using to authenticate your users?
     * What are you currently using to authorize user/group/service access to your services?
+
 * Data
     * Do you have retention policy? How is data backed up? 
     * Are their policies impacting how the data is shared? 
     * How much data does the solution generate? How much data do you intake daily? 
     * Is your data segregated by customer? How do they access the data? 
     * What kind of data is being stored? What is it used for? 
+
 * AI
     * What level of AI is of interest? (Bots, Cognitive Service API, Data Scientist platforms, Machine Learning models)
     * What skill sets do you have on staff? (Data scientists, Developers)
     * What data sets do you have to leverage? (public/proprietary)
     * What feature/functionality are you supporting with the AI? 
+
 * Observability
     * Questions: What existing solutions are you using?  Provided internally, by another provider? 
     * Metrics
@@ -55,6 +60,7 @@
         * What is the tenancy model of the solution? Is there a shared front end but seperate back-end/database per customer? 
         * How is the tenancy implemented in the database? Seperate tables, schema, databases on the same server, independent servers?
         * What is the tenancy model of supporting services like storage, CDN, VMs?
+
 * Scaling
     * Key Concepts:
         * RPS
@@ -68,20 +74,20 @@
         * What is your Y/Y, Q/Q growth? Are there upcoming events that you anticipate growth/traffic spikes for? 
         * Is your application written with microservices or as a monolith? Can the components be deployed as seperate services? 
         * Are there closely coupled systems that must also scale or will be impacted when the solution scales up?
+
 * Governance
     * What is currently in place for governance? Who controls environment access? 
     * Who dictates the enforcement policy and how is it enacted?
     * Who dictates the audit policy and how is it enacted?
+
 * DevOps
    * What environments do you have? (e.g. Dev/Test/Prod)
    * How are you creating new software artifacts?
    * How do you deploy the new software artifacts across your environments?
+
 * Compliance
    * Key Concepts
-        * SOC
-        * HIPAA
-        * ISO
-        * PCI
+        * SOC, HIPAA, ISO, PCI
     * Questions:
         * Are you subject to security audits?
         * Do you have any compliance requirements?
