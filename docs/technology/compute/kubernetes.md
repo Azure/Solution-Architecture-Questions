@@ -2,7 +2,7 @@
 
 * Does the application already run in a containerized environment?
 * Is this a new K8S cluster or a migration from an existing K8S cluster?
-* Do you plan to use AKS or AKS-engine?
+* Do you plan to use AKS or CAPI/CAPZ?
 * What are the ingress network requirements?
 * What are the egress network requirements?
 * Does the application persist state inside the container?  If so, how?
